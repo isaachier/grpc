@@ -25,9 +25,8 @@ cmake_minimum_required(VERSION 3.0)
 
 include(cmake/HunterGate.cmake)
 HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.19.129.tar.gz"
-    SHA1 "3e190ff47df41cc16d32c479b9617309e01405bf"
-    LOCAL
+    URL "https://github.com/ruslo/hunter/archive/v0.20.21.tar.gz"
+    SHA1 "36bc6c263eb173697724e00adac8add4b3e52a31"
 )
 
 set(PACKAGE_NAME      "grpc")
